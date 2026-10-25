@@ -1,0 +1,44 @@
+# 项目记录模板，非可执行配置。null 表示未定义；阈值须附依据。
+question: null
+mode: null # literature | comparison | new_design
+scope:
+  target_taxa: null
+  excluded_and_close_relative_taxa: null
+  geography_and_sample_matrix: null
+  assignment_rank: null
+  background_taxa_and_policy: null
+  platform_and_length_constraints: null
+primer:
+  name_and_version: null
+  original_source_and_locator: null
+  modification_history: null
+  forward_target_5to3: null
+  reverse_target_5to3: null
+  sequence_verification_evidence: null
+  tail_structure: null
+references:
+  sources_versions_and_dates: []
+  accession_and_taxonomy_manifest: null
+  filtering_and_haplotype_policy: null
+  target_and_background_files: null
+  incomplete_site_policy: "标记不可评估并说明原因。"
+analysis:
+  software_versions_and_parameters: []
+  candidate_generation: null
+  pair_and_mismatch_model: null
+  common_evaluable_set: null
+  barcode_conflict_method: null
+  degeneracy_and_thermodynamic_conditions: null
+  holdout_and_sensitivity: null
+  combination_baseline_if_needed: null
+validation:
+  current_stage_and_conditions: null
+  tissue_and_mock_panels: null
+  background_and_inhibition_challenges: null
+  field_sampling_controls_and_replicates: null
+  acceptance_criteria_and_basis: null
+quantification_if_needed:
+  measurement_target_and_units: null
+  standard_and_addition_stage: null
+  calibration_and_lod_loq: null
+unresolved_questions: []
