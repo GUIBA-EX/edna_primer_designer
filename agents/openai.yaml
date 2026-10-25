@@ -1,0 +1,6 @@
+interface:
+  display_name: "eDNA 引物设计与文献方法"
+  short_description: "结合原始文献比较 eDNA 引物，区分证据层级并建立可追溯的筛选与验证流程"
+  default_prompt: "使用 $edna-primer-design 按目标类群或作者梳理 eDNA 引物设计逻辑，区分新设计、改型与应用，并提出有证据边界的筛选及验证方案。"
+policy:
+  allow_implicit_invocation: true
